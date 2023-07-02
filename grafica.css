@@ -11,7 +11,7 @@
   background-color: #2c3435;
   width: 200px;
   float: left;
-  height: 100000vh; /* Altezza pari all'intera altezza della viewport */
+  height: 10vh; /* Altezza pari all'intera altezza della viewport */
 }
 
 /* Stili per il contenuto principale */
