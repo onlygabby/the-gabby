@@ -2,6 +2,13 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="grafica.css">
+
+  <link rel="stylesheet" type="text/css" href="topbar.css">
+
+  
+  <div id="topbar-placeholder"></div>
+
+
 </head>
 <body>
   <header class="top-bar">
@@ -23,6 +30,16 @@
 
   <main>
     <!-- Il tuo contenuto principale qui -->
+    <script>
+  // Carica il contenuto della top bar nel placeholder
+  fetch('topbar.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('topbar-placeholder').innerHTML = data;
+    });
+</script>
+
+  
   </main>
 </body>
 </html>
