@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +10,7 @@ body {
 .top-bar {
   background-color: #333;
   height: 40px;
+
 }
 
 nav ul {
