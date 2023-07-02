@@ -44,3 +44,14 @@ nav ul li a:hover {
   color: white; /* Cambia il colore del testo del link a rosso */
 }
 
+    @font-face {
+        font-family: "
+Belanosima-Bold";
+        src: url("
+Belanosima-Bold.ttf"); /* percorso del tuo font */
+    }
+
+    body {
+        font-family: "
+Belanosima-Bold", sans-serif;
+    }
