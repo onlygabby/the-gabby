@@ -1,0 +1,33 @@
+.app-bar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.app-icon img {
+  height: 30px;
+  width: 30px;
+}
+
+.app-title {
+  margin-left: 10px;
+}
+
+.app-actions {
+  margin-left: auto;
+}
+
+.action-button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.action-button:hover {
+  background-color: #777;
+}
